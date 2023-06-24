@@ -1,0 +1,58 @@
+{
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Atom One Dark",
+
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 12,
+
+  // Css
+  "css.lint.unknownAtRules": "ignore",
+
+  // ReactSnippets
+  "reactSnippets.settings.importReactOnTop": false,
+  "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+
+  // Editor
+  "editor.rulers": [85],
+  "editor.tabSize": 2,
+  "editor.lineHeight": 2,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.accessibilitySupport": "off",
+  "editor.mouseWheelZoom": true,
+  "editor.unicodeHighlight.includeStrings": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Emmet
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  //prettier
+  "prettier.endOfLine": "lf",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.printWidth": 85,
+  "prettier.useTabs": false,
+  "prettier.bracketSpacing": true,
+  "prettier.tabWidth": 2
+}
